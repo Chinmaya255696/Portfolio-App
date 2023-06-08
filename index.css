@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(22, 22, 46);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+ nav ul li a:hover{
+ color: rgb(153, 153, 226);
+ font-size:1.01rem;
+}
+main hr{
+    border:0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+.leftsection{
+   font-size: 3rem;
+  
+}
+.rightsection img{
+ width: 80%;
+ /* margin: 0px 0; */
+}
+.purple{
+    color: rgb(161, 84, 233);
+}
+.text-gray{
+    color: gray;
+}
+#element{
+    color: rgb(161, 84, 233);
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+}
+.secondsection h1{
+    font-size: 1.9rem;
+}
+.secondsection box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin:0 100px;
+    
+}
+.btn-box ul li a{
+    text-decoration: none; 
+    }
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap:2rem;
+   
+    padding: 6px;
+}
+.heading{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+span{
+    color:blue;
+}
+.about-content{
+    text-align: center;
+}
+.about-content h3{
+    font-size:1.6rem;
+}
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+.education{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+.education-column{
+    margin: 2rem;
+    gap:2rem;
+}
+.skills{
+    min-height: auto;
+    padding-bottom: 7rem;
+    background-color:var(--second-bg-color);
+}
+
+
+
+ .skill-cloumn {
+  
+    margin: 30px;
+}
+.title{
+    font-size: 2rem;
+}
+.skill-box .skill-content{
+    position: relative;
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+    padding: .5rem 1.5rem;
+}
+.skills-content .progress{
+    padding:1rem 0;
+}
+.skill-content .progress h3{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-content .progress h3 span{
+    color: var(--text-color);
+}
+
+
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2f09eb;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  form textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  .project {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.project-img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.project-description {
+    color: #666;
+    margin-bottom: 10px;
+}
