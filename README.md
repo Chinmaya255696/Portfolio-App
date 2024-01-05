@@ -4,7 +4,7 @@ This repository contains the code for my portfolio website, which showcases my p
 
 ## Live Demo
 
-Check out the live version of the website deployed on Netlify: [Portfolio Website](https://peppy-platypus-901d36.netlify.app)
+Check out the live version of the website deployed on Netlify: [Portfolio Website URL Link](https://peppy-platypus-901d36.netlify.app)
 
 ## Features
 
